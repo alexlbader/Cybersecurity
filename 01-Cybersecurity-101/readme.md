@@ -103,7 +103,7 @@ These are the optional, recommended resources to supplement the concepts covered
 
 You can find the homework assignment for this unit here: 
 
-- [Security 101 Homework File](../../2-Homework/01-Cybersecurity-101)
+- [Security 101 Homework File](../../Homework/Unsolved)
 
 
 ### Looking Forward 
