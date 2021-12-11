@@ -103,7 +103,7 @@ These are the optional, recommended resources to supplement the concepts covered
 
 You can find the homework assignment for this unit here: 
 
-- [Security 101 Homework File](../../Homework/Unsolved)
+- [Security 101 Homework File](https://ucdavis.bootcampcontent.com/ucdavis-boot-camp/ucd-virt-cyber-pt-12-2021-u-c/-/tree/master/01-Cybersecurity-101/Homework/Unsolved)
 
 
 ### Looking Forward 
