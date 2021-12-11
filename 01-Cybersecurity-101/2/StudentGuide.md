@@ -76,7 +76,7 @@ In this first activity, we will look at various **attack** strategies that attac
 
 ### 03. Activity: Security Challenge #1 - Attacking the Wall
 
-- [Activity File: Security Challenge #1 - Attacking the Wall](Activities/03_Attacking_the_Wall/Unsolved/Readme.md)
+- [Activity File: Security Challenge #1 - Attacking the Wall](Activities/03_Attacking_The_Wall/Unsolved)
 
 ### 04.  Activity Review: Security Challenge #1 - Attacking the Wall
 
