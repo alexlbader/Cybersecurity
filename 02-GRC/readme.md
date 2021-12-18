@@ -1,4 +1,3 @@
-
 ## Week 2 Unit README: Governance, Risk, and Compliance
 
 ### Unit Description
@@ -108,7 +107,7 @@ These resources are provided as optional, recommended resources to supplement th
 
 This unit's homework assignment can be accessed here: 
 
-- [GRC Homework File](../../2-Homework/02-GRC/Readme.md)
+- [GRC Homework File](https://ucdavis.bootcampcontent.com/ucdavis-boot-camp/ucd-virt-cyber-pt-12-2021-u-c/-/blob/master/02-GRC/Homework/Readme.md)
 
 ### Going Forward
 
