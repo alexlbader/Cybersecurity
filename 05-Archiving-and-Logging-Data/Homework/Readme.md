@@ -216,7 +216,7 @@ In an effort to help mitigate against future attacks, you have decided to create
 
 5. Perform a listing that reveals all existing `auditd` rules.
 
-      - **Note**: If you're unsure how to construct these rules, refer to the `auditd` section within the [5.3 Student Guide](../../1-Lesson-Plans/05-Archiving-and-Logging-Data/3/studentguide.md). 
+      - **Note**: If you're unsure how to construct these rules, refer to the `auditd` section within the [5.3 Student Guide](https://ucdavis.bootcampcontent.com/ucdavis-boot-camp/ucd-virt-cyber-pt-12-2021-u-c/-/blob/master/05-Archiving-and-Logging-Data/3/StudentGuide.md). 
 
 6. Using `sudo`, produce an audit report that returns results for all user authentications.
 
