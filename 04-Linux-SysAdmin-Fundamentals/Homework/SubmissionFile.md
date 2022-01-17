@@ -62,11 +62,11 @@ Save and submit the completed file for your homework submission.
 ### Step 4: Lynis Auditing
 
 1. Command to install Lynis:
-
+sudo apt install lynis
 2. Command to see documentation and instructions:
-
+info lynis
 3. Command to run an audit:
-
+sudo lynis audit system
 4. Provide a report from the Lynis output on what can be done to harden the system.
 
     - Screenshot of report output:
