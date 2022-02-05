@@ -7,25 +7,23 @@ Save and submit the completed file for your homework submission.
 **Step 1: Shadow People** 
 
 1. Create a secret user named `sysd`. Make sure this user doesn't have a home folder created:
-    - `Your solution command here`
+    - `adduser --no-create-home sysd`
 
 2. Give your secret user a password: 
-    - `Your solution command here`
+    - `The password promt initiated after adding user. But, if i wanted to change it, the cmd is sudo passwd sysd`
 
 3. Give your secret user a system UID < 1000:
-    - `Your solution command here`
+    - `usermod -u 123 sysd`
 
 4. Give your secret user the same GID:
-   - `Your solution command here`
+   - `groupmod -g 123 sysd`
 
 5. Give your secret user full `sudo` access without the need for a password:
-   -  `Your solution command here`
+   -  `sudo visudo and add sysd in '# Allow members of group sudo to execute any command' with 'sysd ALL=(ALL) NOPASSWD: ALL'`
 
 6. Test that `sudo` access works without your password:
 
-    ```bash
-    Your bash commands here
-    ```
+    ```sudo ls```
 
 **Step 2: Smooth Sailing**
 
@@ -37,10 +35,10 @@ Save and submit the completed file for your homework submission.
 
 **Step 3: Testing Your Configuration Update**
 1. Restart the SSH service:
-    - `Your solution command here`
+    - `sudo /etc/init.d/ssh restart`
 
 2. Exit the `root` account:
-    - `Your solution command here`
+    - `exit`
 
 3. SSH to the target machine using your `sysd` account and port `2222`:
     - `Your solution command here`
