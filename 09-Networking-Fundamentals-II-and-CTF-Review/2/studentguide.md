@@ -260,12 +260,12 @@ There is a command-line tool called `nslookup` (_name server lookup_) that allow
 
 ### 03. DNS Record Types Activity  
 
-- [Activity File: DNS Record Types](activities/03_DNS_Record_Types/unsolved/readme.md) 
+- [Activity File: DNS Record Types](https://ucdavis.bootcampcontent.com/ucdavis-boot-camp/ucd-virt-cyber-pt-12-2021-u-c/-/tree/master/09-Networking-Fundamentals-II-and-CTF-Review/2/Activities/03_DNS_Record_Types/unsolved) 
 
 
 ### 04. Instructor Do: Review DNS Record Types Activity (0:10)
 
-- [Solution Guide: DNS Record Types](activities/03_DNS_Record_Types/solved/readme.md) 
+- [Solution Guide: DNS Record Types](https://ucdavis.bootcampcontent.com/ucdavis-boot-camp/ucd-virt-cyber-pt-12-2021-u-c/-/tree/master/09-Networking-Fundamentals-II-and-CTF-Review/2/Activities/03_DNS_Record_Types/solved) 
 
 
 ### 05. Introduction to Email Networking 
