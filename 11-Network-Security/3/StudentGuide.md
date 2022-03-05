@@ -27,7 +27,7 @@ ___
 
 ### 01. Security Onion Set Up
 
-- [Activity File: Security Onion Setup](Activities/01_Security_Onion_Setup/README.md)
+- [Activity File: Security Onion Setup](https://ucdavis.bootcampcontent.com/ucdavis-boot-camp/ucd-virt-cyber-pt-12-2021-u-c/-/blob/master/11-Network-Security/3/Activities/01_Security_Onion_Setup/README.md.md)
 
 ###  02. Overview and Alert - C2 Beacon Setup (0:20)
 
