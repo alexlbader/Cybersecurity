@@ -22,7 +22,7 @@ You will use the following skills and knowledge to complete the following projec
 You will continue using your personal Azure account and build upon your existing Azure VMs. You will **not** be using your cyberxsecurity accounts.
 
 ### Additional Resources
-- [Ansible Documentation](https://docs.ansible.com/ansible/latest/modules/modules_by_category.html)
+- [Ansible Documentation](https://docs.ansible.com/ansible/latest/plugins/module.html)
 - [`elk-docker` Documentation](https://elk-docker.readthedocs.io/#Elasticsearch-logstash-kibana-elk-docker-image-documentation)
 - [Virtual Memory Documentation](https://www.elastic.co/guide/en/elasticsearch/reference/current/vm-max-map-count.html)
 - ELK Server URL: http://your-IP:5601/app/kibana#/home?_g=()
