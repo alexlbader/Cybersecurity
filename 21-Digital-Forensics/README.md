@@ -60,7 +60,7 @@ For more information about these Security+ domains, refer to the following resou
 
 This unit's homework assignment can be viewed here: 
 
-- [Unit Homework File](2-Homework/21-Digital-Forensics)
+- [Unit Homework File](https://ucdavis.bootcampcontent.com/ucdavis-boot-camp/ucd-virt-cyber-pt-12-2021-u-c/-/tree/master/21-Digital-Forensics/Homework/Instructions)
 
 
 
