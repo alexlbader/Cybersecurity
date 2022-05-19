@@ -8,12 +8,12 @@ Save and submit the completed file for your homework submission.
 
 ### Step 1: Create, Extract, Compress, and Manage tar Backup Archives
 
-1. Command to **extract** the `TarDocs.tar` archive to the current directory:
+1. Command to **extract** the `TarDocs.tar` archive to the current directory: tar -x TarDocs.tar ~/Projects
 
-2. Command to **create** the `Javaless_Doc.tar` archive from the `TarDocs/` directory, while excluding the `TarDocs/Documents/Java` directory:
+2. Command to **create** the `Javaless_Doc.tar` archive from the `TarDocs/` directory, while excluding the `TarDocs/Documents/Java` directory: tar -cf Javaless_Docs.tar --exclude TarDocs/Documents/Java
 
 3. Command to ensure `Java/` is not in the new `Javaless_Docs.tar` archive:
-
+tar tf Javaless_Docs.tar | grep Java
 **Bonus** 
 - Command to create an incremental archive called `logs_backup_tar.gz` with only changed files to `snapshot.file` for the `/var/log` directory:
 
@@ -21,26 +21,32 @@ Save and submit the completed file for your homework submission.
 
 - Why wouldn't you use the options `-x` and `-c` at the same time with `tar`?
 
----
+--- Extracting an existing file and creating something are two different actions. You can't extract something that doesn't exist yet, and it'd be better to just create the file exactly where you want it to be.
 
 ### Step 2: Create, Manage, and Automate Cron Jobs
 
-1. Cron job for backing up the `/var/log/auth.log` file:
+1. Cron job for backing up the `/var/log/auth.log` file: 
+0 6 * * 3 tar -cvf ~/var/log/auth.log /auth_backup.tgz
 
 ---
 
 ### Step 3: Write Basic Bash Scripts
 
-1. Brace expansion command to create the four subdirectories:
+1. Brace expansion command to create the four subdirectories: echo ~/backups/{freemem,diskuse,openlist,freedisk}
 
 2. Paste your `system.sh` script edits below:
 
     ```bash
     #!/bin/bash
-    [Your solution script contents here]
+    [
+    free -m > ~/backups/freemem/free_mem.txt
+    df -sh * > ~/backups/diskuse/disk_usage.txt
+    lsof > ~/backups/openlist/open_list.txt
+    df -h > ~/backups/freedisk/free_disk.txt
+    ]
     ```
 
-3. Command to make the `system.sh` script executable:
+3. Command to make the `system.sh` script executable: chmod +x system.sh
 
 **Optional**
 - Commands to test the script and confirm its execution:
@@ -59,7 +65,13 @@ Save and submit the completed file for your homework submission.
     - Add your config file edits below:
 
     ```bash
-    [Your logrotate scheme edits here]
+    /var/log/auth.log {
+        notifwmpty
+        weekly
+        compress
+        delaycompress
+        missingok
+    }
     ```
 ---
 
