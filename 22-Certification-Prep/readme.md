@@ -74,7 +74,7 @@ These resources are provided as optional, recommended resources to supplement th
 
 This unit's homework assignment can be viewed here: 
 
-- [Unit Homework File](../../2-Homework/22-Certification-Prep/README.md)
+- [Unit Homework File](https://ucdavis.bootcampcontent.com/ucdavis-boot-camp/ucd-virt-cyber-pt-12-2021-u-c/-/tree/master/22-Certification-Prep/Homework)
   
 ### Looking Forward 
 
